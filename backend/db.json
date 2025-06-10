@@ -1,0 +1,69 @@
+{
+    "calls": [
+        {
+            "id": "1",
+            "title": "Initial Discovery Call with Acme Corp",
+            "repName": "Sarah Johnson",
+            "date": "2024-07-22T14:30:00Z",
+            "sentimentScore": 85,
+            "transcript": "Sarah: Thanks for joining the call today. To start, could you tell me a bit more about the challenges you're facing with your current lead generation process?\nClient: We're struggling to keep track of incoming leads and our sales team often misses follow-ups.",
+            "nextSteps": [
+                "Send follow-up email with product demo link.",
+                "Schedule a technical deep-dive for next week."
+            ],
+            "tags": ["Discovery", "Lead-Gen"]
+        },
+        {
+            "id": "2",
+            "title": "Q3 Business Review - Stark Industries",
+            "repName": "John Doe",
+            "date": "2024-07-21T11:00:00Z",
+            "sentimentScore": 72,
+            "transcript": "John: Welcome, everyone. The main goal for today is to review our performance in Q3 and align on priorities for Q4.\nClient: We're happy with the results but we've seen a dip in engagement on the new platform.",
+            "nextSteps": [
+                "Investigate dip in platform engagement.",
+                "Prepare a proposal for a new training module."
+            ],
+            "tags": ["QBR", "Performance"]
+        },
+        {
+            "id": "3",
+            "title": "Pricing Negotiation - Wayne Enterprises",
+            "repName": "Emily Carter",
+            "date": "2024-07-20T16:00:00Z",
+            "sentimentScore": 65,
+            "transcript": "Emily: Based on your usage and the features you need, this is the pricing tier we recommend.\nClient: That's higher than we budgeted for. Is there any flexibility on the annual subscription cost?",
+            "nextSteps": [
+                "Discuss discount options with sales manager.",
+                "Provide a revised quote by EOD Friday."
+            ],
+            "tags": ["Negotiation", "Pricing"]
+        },
+        {
+            "id": "4",
+            "title": "Onboarding & Implementation Kick-off",
+            "repName": "Sarah Johnson",
+            "date": "2024-07-19T09:30:00Z",
+            "sentimentScore": 95,
+            "transcript": "Sarah: We're so excited to have you on board! Let's walk through the implementation plan to ensure a smooth start.\nClient: This looks great. We're eager to get started.",
+            "nextSteps": [
+                "Grant team access to the platform.",
+                "Schedule first check-in for 2 weeks out."
+            ],
+            "tags": ["Onboarding", "Kick-off"]
+        },
+        {
+            "id": "5",
+            "title": "Feature Request Discussion - Cyberdyne Systems",
+            "repName": "John Doe",
+            "date": "2024-07-18T13:00:00Z",
+            "sentimentScore": 78,
+            "transcript": "John: Thanks for sharing your feedback. Could you elaborate on the AI-powered reporting feature you mentioned?\nClient: We want a dashboard that automatically identifies at-risk customers based on their usage patterns.",
+            "nextSteps": [
+                "Log feature request in the product backlog.",
+                "Connect client with the product manager for a detailed discussion."
+            ],
+            "tags": ["Feature-Request", "AI"]
+        }
+    ]
+}

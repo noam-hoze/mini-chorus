@@ -1,0 +1,28 @@
+<p>Call Summary:</p>
+@if (callDetail) {
+<ul>
+    <li>Title: {{ callDetail.summary.title }}</li>
+    <li>Date: {{ callDetail.summary.date }}</li>
+    <li>Rep: {{ callDetail.summary.rep }}</li>
+</ul>
+
+<p>Sentiment: {{ callDetail.sentiment }}</p>
+<p>Transcript: {{ callDetail.transcript }}</p>
+<p>Next Steps:</p>
+<ul>
+    @for (nextStep of callDetail.nextSteps; track $index) {
+    <li>
+        {{ nextStep }}
+    </li>
+    }
+</ul>
+{{ callDetail.tags.toString() }}
+
+<form [formGroup]="tagForm">
+    <select formControlName="tag">
+        @for (tag of tags; track $index) {
+            <option [value]="tag">{{ tag }}</option>
+        }
+    </select>
+</form>
+}

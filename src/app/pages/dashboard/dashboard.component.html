@@ -1,0 +1,24 @@
+<table>
+    <thead>
+        <tr>
+            <th>Call title</th>
+            <th>Rep name</th>
+            <th>Call date</th>
+            <th>Sentiment score</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (call of calls; track call.id) {
+            <tr>
+                <td>
+                    <a [routerLink]="['/calls', call.id]" routerLinkActive="router-link-active">{{ call.title }} </a> 
+                </td>
+                <td>
+                    {{ call.repName }}
+                </td>
+                <td>{{ call.date }}</td>
+                <td>{{ call.sentimentScore }}</td>
+            </tr>
+        }
+    </tbody>
+</table>
