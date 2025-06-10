@@ -52,3 +52,46 @@ Create a simplified web application to display, search, and manage a collection 
     -   [x] A separate mock API server provides the call data.
 
 ---
+
+## 🔁 Advanced Requirements
+
+### NgRx Enhancements
+
+-   [ ] Use `NgRx Effects` to fetch call list from a mock API
+-   [ ] Handle `loading` and `error` states in the store
+-   [ ] Create `selectors` for:
+    -   [ ] filtered call list
+    -   [ ] selected call by ID
+    -   [ ] loading and error flags
+
+### Call Detail View Enhancements
+
+-   [ ] Fetch call data in route resolver or effect
+-   [ ] Display fallback UI for loading / error
+
+### Role-Based UI (Optional)
+
+-   [ ] Add simple role toggle (e.g., `rep` vs `manager`)
+-   [ ] Restrict some actions to managers (e.g., tagging)
+
+### Performance & Best Practices
+
+-   [ ] Use `ChangeDetectionStrategy.OnPush` in all components
+-   [ ] Replace manual subscriptions with `async` pipe
+
+### Testing
+
+-   [ ] Write 1 unit test for a reducer or effect
+-   [ ] Write 1 unit test for a dumb component
+
+### Large Data Handling
+
+-   [ ] Simulate a large dataset (e.g., 500+ calls) to reflect ZoomInfo's scale
+-   [ ] Implement pagination or virtual scrolling in the dashboard
+
+### Security Awareness
+
+-   [ ] Add a basic route guard or role check to simulate access control
+-   [ ] Prevent access to certain views/actions unless user is "mock logged-in" or has the appropriate role
+
+---
